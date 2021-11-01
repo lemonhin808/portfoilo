@@ -1,0 +1,579 @@
+* {
+    font-family: 'Fugaz One', cursive;
+}
+
+header {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+header .desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.ic-logo {
+    height: 48px;
+}
+
+.bold {
+    font-weight: bold;
+    color: black;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    height: 32px;
+}
+
+.light {
+    font-weight: lighter;
+    height: 32px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: gainsboro;
+}
+
+.colmaracademy {
+    height: 32px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.linkto {
+    height: auto;
+    margin-right: 24px;
+}
+
+.campus {
+    margin-right: 16px;
+}
+
+.online {
+    margin-right: 16px;
+}
+
+.forcompanies {
+    margin-right: 16px;
+}
+
+.linkto a {
+    color: darkgray;
+    line-height: 32px;
+}
+
+.mobile {
+    display: none;
+}
+
+.cover {
+    width: 100%;
+    background-color: lightgray;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.learncontent {
+    color: darkslategrey;
+    text-align: left;
+    align-self: center;
+    padding: 0;
+}
+
+h3 {
+    text-align: left;
+    align-self: center;
+}
+
+.learncontent button {
+    color: white;
+    background-color: gray;
+    z-index: 1;
+    background-size: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    align-self: center;
+    width: 60%;
+}
+
+.articles {
+    background-color: white;
+    background-size: cover;
+    display: flex;
+}
+
+.informationpic {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.cover p {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.cover a {
+    font-size: 14px;
+}
+
+.leftcontent {
+    width: 60%;
+    padding: 32px 24px;
+}
+
+.leftcontent img {
+    width: 100%;
+}
+
+.leftcontent h1 {
+    padding-top: 32px;
+}
+
+h2 {
+    font-size: 30px;
+    color: dimgray;
+    font-weight: bold;
+}
+
+.leftcontent p {
+    padding: 24px 24px 24px 0px;
+}
+
+p {
+    color: gray;
+    word-break: break-all;
+    white-space: normal;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.rightcontent {
+    border-left: 1px solid gray;
+    padding: 16px 0px 32px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.con {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first img {
+    width: 35%;
+    padding: 16px;
+}
+
+.firstcontent {
+    width: 100%;
+    padding: 16px 1px 16px 0px;
+}
+
+h6 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.second img {
+    width: 35%;
+    padding: 16px;
+}
+
+.secondcontent {
+    width: 100%;
+    padding: 16px 1px 16px 0px;
+}
+
+.third img {
+    width: 35%;
+    padding: 16px;
+}
+
+.thirdcontent {
+    width: 100%;
+    padding: 16px 1px 16px 0px;
+}
+
+.third {
+    background-color: lightgray;
+}
+
+.courses {
+    background-color: lightgray;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.learningcourses {
+    padding: 32px 72px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.leftcourses {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 320px;
+    margin-left: 72px;
+}
+
+.rightcourses {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 320px;
+    margin-right: 72px;
+}
+
+.midcourses {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 320px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+span {
+    color: blueviolet;
+}
+
+.course img {
+    width: 320px;
+}
+
+.description {
+    background-color: white;
+    padding: 24px 24px 16px 24px;
+    margin-bottom: 32px;
+}
+
+.thesis {
+    width: 100%;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.thesisexhibits {
+    background-color: white;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.thesisexhibits video {
+    width: 100%;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.video {
+    width: 55%;
+    padding-right: 16px;
+}
+
+.video h2 {
+    text-align: left;
+}
+
+.rightone {
+    border-left: 1px solid lightgrey;
+    background-color: lightgrey;
+    padding: 16px 0px 32px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.righttwo {
+    border-left: 1px solid lightgray;
+    padding: 16px 0px 32px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.rightthesis {
+    width: 40%;
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightone img {
+    width: 35%;
+    padding: 16px;
+}
+
+.rightone .righttext {
+    padding-left: 16px;
+    font-weight: bold;
+}
+
+.righttwo img {
+    width: 35%;
+    padding: 16px;
+}
+
+.righttwo .righttext2 {
+    font-weight: bold;
+}
+
+footer .footercon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-left: 24px;
+}
+
+footer {
+    border-top: 1px solid black;
+}
+
+footer .rightfooter {
+    margin-right: 0;
+}
+
+.mobilebanner {
+    display: none;
+}
+
+.mobilelearning {
+    display: none;
+}
+
+.mobilefooter {
+    display: none;
+}
+
+.mobileexhibit {
+    display: none;
+}
+
+.mobilecontent {
+    display: none;
+}
+
+@media only screen and (max-width: 680px) {
+    .mobile {
+        display: flex;
+        justify-content: space-around;
+        width: auto;
+        height: 64px;
+    }
+    header {
+        display: none;
+    }
+    .mobilebanner {
+        width: 100%;
+        background-color: lightgray;
+        background-size: cover;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .mb {
+        width: 640px;
+    }
+    .cover {
+        display: none;
+    }
+    .learnmobile h1 {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        text-align: left;
+        font-size: 64px;
+    }
+    .learnmobile h3 {
+        padding-bottom: 24px;
+        text-align: left;
+        font-size: 32px;
+    }
+    .learnmobile button {
+        margin-bottom: 32px;
+        font-weight: bold;
+        color: black;
+        background-color: pink;
+        border: 2px ridge yellow;
+        width: 500px;
+        height: 250px;
+    }
+    .leftcontent {
+        display: none;
+    }
+    .rightcontent {
+        display: none;
+    }
+    .learnmobile {
+        background-size: cover;
+    }
+    .mobilecontent {
+        display: flex;
+        flex-direction: column;
+    }
+    .mobilepic1 {
+        margin-top: 16px;
+        margin-left: 16px;
+        display: flex;
+        align-items: center;
+    }
+    .mobile1 {
+        text-align: left;
+        padding-left: 32px;
+    }
+    .mobilepic2 {
+        margin-top: 64px;
+        margin-left: 16px;
+        margin-bottom: auto;
+        display: flex;
+        align-items: center;
+    }
+    .mobile2 {
+        text-align: left;
+        padding-left: 32px;
+        margin-bottom: 32px;
+    }
+    .mobilepic3 {
+        margin-top: auto;
+        margin-bottom: 32px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .mobile3 {
+        text-align: left;
+        padding-left: 32px;
+        margin-bottom: 32px;
+    }
+    .courses {
+        display: none;
+    }
+    .learningcourses {
+        display: none;
+    }
+    .mobilelearning {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .software {
+        background-color: lightgrey;
+        margin: 16px;
+        padding-top: 16px;
+        padding-left: 16px;
+        padding-bottom: 24px;
+        display: flex;
+        justify-content: center;
+    }
+    .computer {
+        background-color: lightgrey;
+        margin: 16px;
+        padding-top: 16px;
+        padding-left: 16px;
+        padding-bottom: 24px;
+        display: flex;
+        justify-content: center;
+    }
+    .design {
+        background-color: lightgrey;
+        margin: 16px;
+        padding-top: 16px;
+        padding-left: 16px;
+        padding-bottom: 24px;
+        display: flex;
+        justify-content: center;
+    }
+    .data {
+        background-color: lightgrey;
+        margin: 16px;
+        padding-top: 16px;
+        padding-left: 16px;
+        padding-bottom: 24px;
+        display: flex;
+        justify-content: center;
+    }
+    .business {
+        background-color: lightgrey;
+        margin: 16px;
+        padding-top: 16px;
+        padding-left: 16px;
+        padding-bottom: 24px;
+        display: flex;
+        justify-content: center;
+    }
+    .marketing {
+        background-color: lightgrey;
+        margin: 16px;
+        padding-top: 16px;
+        padding-left: 16px;
+        padding-bottom: 24px;
+        display: flex;
+        justify-content: center;
+    }
+    .thesis {
+        display: none;
+    }
+    .thesisexhibits {
+        display: none;
+    }
+    .mobileexhibit {
+        padding-top: 32px;
+        padding-bottom: 16px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .mobilevideo {
+        width: auto;
+        margin-bottom: 24px;
+    }
+    footer {
+        display: none;
+    }
+    .mobilefooter {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 12px;
+        border-top: 1px solid black;
+        display: flex;
+    }
+}
